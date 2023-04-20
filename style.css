@@ -515,7 +515,7 @@ section {
     .container_drp {
 
         flex-direction: column;
-        background-color: #5e5e5e;
+        background-color: #807f7f;
         height: 150px;
         position: absolute;
         left: -100%;
