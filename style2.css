@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+}
+
+.login_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
+
+.login-area-content {
+    color: #5e5e5e;
+    font-weight: 500;
+    width: 432px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 130px;
+    height: 56px;
+}
+
+.content {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#heading {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.login-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.password_area {
+    margin-top: 10px;
+}
+
+.password-text {
+    display: flex;
+    justify-content: space-between;
+    color: #5e5e5e;
+}
+
+#hide-password-icon {
+    width: 10px;
+    height: 10px;
+}
+
+input {
+    font-size: 16px;
+    width: 100%;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+label {
+    margin: 0 0 8px;
+}
+
+.captcha-refresh img {
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.captcha-refresh {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    margin: 10px 0 0 7px;
+    border-radius: 7px;
+
+}
+
+.captcha-form {
+    display: flex;
+    align-items: center;
+}
+
+.captcha input[type="text"] {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.captcha {
+ 
+    margin-top: 10px;
+}
+
+
+#check_captcha{
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    width: 80px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #5e5e5e;
+
+}
+
+#captcha-box {
+    border: 2px solid black;
+    height: 50px;
+    width: 170px;
+    text-align: center;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 7px;
+    background-image: url("/images/captcha_background.png");
+    font-weight: bold;
+    color: #3c364e;
+}
+
+.preview {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 8px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+#with-office-login img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+#login-button-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#another-option {
+    margin: 10px 0px;
+}
+
+.login-butt {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 7px;
+}
+
+#Gmail-login {
+    color: white;
+    font-weight: bold;
+    background: #2F4050;
+}
+
+#Gmail-login:hover {
+    cursor: pointer;
+    opacity: 0.65;
+}
+
+#with-office-login:hover {
+    cursor: pointer;
+    background-color: #e3e1e1;
+}
+
+@media only screen and (max-width: 1275px) {
+    .slideshow-container {
+        display: none;
+    }
+
+    .login_info {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 443px) {
+    .login-area-content {
+        margin: 20px;
+    }
+
+}
+
+/* images slide show css */
+
+.slideshow-container {
+    border: 8px solid black;
+    width: 35%;
+    height: 100vh;
+    position: relative;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+}
