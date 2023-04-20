@@ -5,11 +5,11 @@ let elem = document.querySelector(".header-box");
 let x = document.querySelector(".header-img-container")
 hamburger.addEventListener("click", () => {
     ham_container.style.transition = "top 5s ease";
-    if (elem.style.marginTop === "145px") {
+    if (elem.style.marginTop === "150px") {
         elem.style.marginTop = "0px"
     }
     else {
-        elem.style.marginTop = "145px"
+        elem.style.marginTop = "150px"
     }
     hamburger.classList.toggle("active");
     ham_container.classList.toggle("active");
