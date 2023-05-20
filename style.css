@@ -140,7 +140,7 @@
 #learn_more {
     width: 200px;
     text-align: center;
-    padding: 14px 30px;
+    
     border: 2px solid white;
     border-radius: 100px;
     font-weight: bold;
@@ -154,6 +154,7 @@
 #learn_more a {
     text-decoration: none;
     color: white;
+    padding: 10px 20px;
 }
 
 #learn_more a:hover {
@@ -283,7 +284,7 @@ section {
     font-size: 22px;
 }
 
-.demo-button a:hover {
+.demo-button:hover {
     background-color: #604d8d;
     color: white;
 }
