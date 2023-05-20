@@ -32,9 +32,10 @@ submit.addEventListener("click", () => {
     console.log("done")
     if (check === captcha_box.innerText) {
         console.log(true)
+        alert("Captcha Entered is valid ");
     }
     else if (check === "") {
-        alert("Please Valid Enter captcha !")
+        alert("Please Enter valid captcha !")
     }
     else {
         alert("Entered Captcha is Invalid !");
